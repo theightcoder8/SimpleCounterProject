@@ -16,6 +16,7 @@ btns.forEach(function(btn) {
             count = 0;
         }
 
+        // Some color styles
         if(count > 0) {
             value.style.color = 'green';
         } else if(count < 0) {
